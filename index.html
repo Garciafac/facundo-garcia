@@ -1,0 +1,197 @@
+<!DOCTYPE html><!--esta etiqueta abierta indica que esun html5-->
+<!--esto es un cometario-->
+<html lang="es"><!--lang es el idioma-->
+    <head><!--es la cabecera de las configuraciones del sitio web-->
+        <meta charset="UTF-8"><!--carecteres especiales del idioma español-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--responsive-->
+        <!--iconos-->
+        <script src="https://kit.fontawesome.com/2d3043bd05.js" crossorigin="anonymous"></script>
+
+        <title>Document</title>
+        <!--favicon-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- BOOTSTRAP LOCAL-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- estilo de css-->
+        <link rel="stylesheet" href="./css/estilos.css">
+
+    </head>
+    <!--en el body va el contenido de la pagina web-->
+    <body>
+        <header class="header p-2 position-sticky top-0"> 
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="logo" src="./asset/img/logo.png" alt="logo de inmobiliaria">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end  ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/propiedades.html">Propiedades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/rrhh.html">Sumate</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                     
+                    </ul>
+                   
+                  </div>
+                </div>
+              
+
+            </nav>
+        </header>
+        <main class="main">
+            <section class=" text-center mt-5 mb-5">
+                <h1 class="fs-1 mt-5">TODOS BUSCAMOS UN LUGAR EN EL MUNDO</h1>
+                <h3 class="fs-3 mt-5">LAS MEJORES OFERTAS DEL MERCADO</h3>
+            
+                <a class="enlacePropiedades d-inline p-2 bg-dark text-white text-decoration-none rounded-pill " href="./pages/propiedades.html">Propiedades</a>
+            </section>
+            <section class="container-fluid mx-auto "><!-- caruucel-->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./asset/img/cabañas.jpg" class="d-block w-100" alt="cabañas en la Provincia del Neuquen">
+                        <div class="carousel-caption d-none d-md-block">
+                             
+                          <h5>San Martin de los Andes</h5>
+                          <p> Cerro Chapelco,USD 3.000 la noche </p>
+                            
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./asset/img/recidencial..jpg" class="d-block w-100" alt="casa en barrios privados">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Barrios Privados, mas exclusivo.</h5>
+                          <p>Desde un precio estimado de USD 150.000</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./asset/img/casa en el lago..jpg" class="d-block w-100" alt="casa al costado del un lago ">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Lago Escondido</h5>
+                          <p>Tierra del Fuego, USD 3.500 la noche </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+            <section class="d-flex justify-content-center">
+                <div class="p-3 mb-2 bg-info text-center mt-5 rounded-pill w-50  ">¿LO SEGUIS PENSANDO?</div>
+            </section>
+
+            <section class=" container mt-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="col">
+                      <div class="card h-100 border border-dark border-2">
+                        <img src="./asset/img/patio.webp" class="card-img-top " alt="el patio trasero de una casas">
+                        <div class="card-body">
+                          <h5 class="card-title">Disfruta de tu aire libre, con tu familia</h5>
+                          <p class="card-text">Exclusivo condominio inserto en medio de la nturaleza.Laguna navegable, senderos para trekking y bicicleta. Todos los servicios para vivir comodamente.</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 border border-dark border-2">
+                        <img src="./asset/img/entrada.webp" class="card-img-top" alt="entrada de un barrio vip">
+                        <div class="card-body">
+                          <h5 class="card-title">Conecta con la naturaleza</h5>
+                          <p class="card-text">Casas para conectar con una vida de barrio con la naturaleza. </p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100 border border-dark border-2">
+                        <img src="./asset/img/interiores.webp" class="card-img-top" alt="interiores de departamento">
+                        <div class="card-body">
+                          <h5 class="card-title">Vivi en espacios integrados</h5>
+                          <p class="card-text">Un nuevo concepto moderno y funcional que integra cocina y comedor para que tu cocina se combierta en el corazon de la casa</p>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+            </section>
+
+        </main>
+        <footer class="footer container-fluid">
+           
+            <section class="container mt-5 ">
+                
+              <div class="row p-5">
+                <div class="col-sm-12 col-md-6 ">
+                   <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h3>Ubicacion</h3>
+                    <p class="parrafoUno">Av.tucuman y Av. Gral Roca</p>
+                    <p class="parrafoDos">Barrio el porvenir</p>
+                    <p class="parrafoTres">Argentina, Rio Negro, General Roca</p>
+
+                   </div>
+                </div>
+                
+                  <div class="col-sm-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.426222472031!2d-67.5759193!3d-39.028400399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a1d2c33d70d03%3A0x2d35df691ad41c69!2sTucum%C3%A1n%20%26%20Avenida%20General%20Julio%20Argentino%20Roca%2C%20Gral.%20Roca%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1707567473969!5m2!1ses!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              </div>
+                
+                
+            </section>
+            <section class="contenerdorTextoFooter text-center">
+                <h3 class="subtituloFuter">conocenos en nuestras redes sociales</h3>
+                
+                <section class="contenedorRedesSociales">
+                    
+                        <a class="iconoWsp" href="https://www.whatsapp.com/" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/"target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        
+                        <a href="https://twitter.com/"target="_blank">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/"target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                    
+
+                </section>
+            
+           
+
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
