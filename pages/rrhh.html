@@ -10,65 +10,112 @@
         <title>Document</title>
         <!--favicon-->
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
 
     </head>
     <!--en el body va el contenido de la pagina web-->
     <body>
-        <header> 
-            <img src="../asset/img/logo.png" alt="logo de inmobiliaria">
-            <nav>
-                <!--listas desordenadas 
-                 que son?
-                 son listas que no tienen un orden en especifico
-                 sirve para agrupar contenido que tienen sentido que este junto
-                 -->
-                 <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <!--el enlace es relativo por que depende donde estoy parado-->
-                    <li><a href="./propiedades.html">Propiedades</a></li>
-                    <li><a href="./nosotros.html">Nosostros</a></li>
-                    <li><a href="./rrhh.html">Sumate</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-
-                 </ul>
-            
+        <header class="header p-2 position-sticky top-0"> 
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img class="logo" src="../asset/img/logo.png" alt="logo de inmobiliaria">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/propiedades.html">Propiedades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/rrhh.html">Sumate</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                      </li>
+                     
+                    </ul>
+                   
+                  </div>
+                </div>
+              
 
             </nav>
         </header>
         <main>
-            <h1>sumate</h1>
-            <h2>Súmate a una oficina adherida a la Red más exitosa del mundo. </h2>
-            <img src="../asset/img/grupo de oficinistas.jpg" alt="grupo de oficinistas jusntando los puños">
-            
-            <p>Nuestro objetivo es hacer de tus procesos de selección una tarea sencilla. A través de metodologías ágiles, con sprints constantes y comunicación periódica, alineamos las expectativas contigo para llegar a los mejores candidatos para tus procesos de selección. Creemos en las decisiones basadas en información, por esto, buscamos que recibas la mayor cantidad de esta para tener más argumentos a la hora de ofertar a los candidatos.</p>
+            <h1 class="p-5 text-center">
+                SUMATE
+            </h1>
+            <section class="conteiner">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 ">
+                        <img src="../asset/img/grupo de oficinistas.jpg" class="w-100 p-3 border border-dark" alt="grupo de oficinistas jusntando los puños">  
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <!--<h2>Súmate a una oficina adherida a la Red más exitosa del mundo. </h2>-->
+                        <p>
+                            Nuestro objetivo es hacer de tus procesos de selección una tarea sencilla. A través de metodologías ágiles, con sprints constantes y comunicación periódica, alineamos las expectativas contigo para llegar a los mejores candidatos para tus procesos de selección. 
+                        </p>
+                    </div>
+                </div>
+
+            </section>
 
         </main>
-        <footer>
-            <section>
-                <h3>conocenos en nuestras redes sociales</h3>
-                <!-- href con enlace absoluto, es una direccion completa de internet-->
-                <a href="https://www.whatsapp.com/" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-                <h4>whatsapp</h4>
-                <a href="https://www.instagram.com/"target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </section>
-            <section>
-                <h3>Ubicacion</h3>
-                <p>Av.tucuman y Av. Gral Roca</p>
-                <p>Barrio el porvenir</p>
-                <p>Argentina, Rio Negro, General Roca</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.426222472031!2d-67.5759193!3d-39.028400399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a1d2c33d70d03%3A0x2d35df691ad41c69!2sTucum%C3%A1n%20%26%20Avenida%20General%20Julio%20Argentino%20Roca%2C%20Gral.%20Roca%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1707059397621!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-            <section> 
-                <h3>contacto</h3>
-                <p>tel:2984 564420</p>
-                <p>Inmobil@gemail.com</p>
-            </section>
-
+        <footer class="footer container-fluid">
+            <section class="container mt-5 ">
+                
+                <div class="row p-5">
+                  <div class="col-sm-12 col-md-6 ">
+                     <div class="d-flex flex-column justify-content-center align-items-center">
+                      <h3>Ubicacion</h3>
+                      <p class="parrafoUno">Av.tucuman y Av. Gral Roca</p>
+                      <p class="parrafoDos">Barrio el porvenir</p>
+                      <p class="parrafoTres">Argentina, Rio Negro, General Roca</p>
+  
+                     </div>
+                  </div>
+                  
+                    <div class="col-sm-12 col-md-6">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.426222472031!2d-67.5759193!3d-39.028400399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a1d2c33d70d03%3A0x2d35df691ad41c69!2sTucum%C3%A1n%20%26%20Avenida%20General%20Julio%20Argentino%20Roca%2C%20Gral.%20Roca%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1707567473969!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                  
+                  
+              </section>
+              <section class="contenerdorTextoFooter text-center">
+                  <h3 class="subtituloFuter">conocenos en nuestras redes sociales</h3>
+                  
+                  <section class="contenedorRedesSociales">
+                      
+                          <a class="iconoWsp" href="https://www.whatsapp.com/" target="_blank">
+                              <i class="fa-brands fa-whatsapp"></i>
+                          </a>
+                          <a href="https://www.instagram.com/"target="_blank">
+                              <i class="fa-brands fa-instagram"></i>
+                          </a>
+                          
+                          <a href="https://twitter.com/"target="_blank">
+                              <i class="fa-brands fa-x-twitter"></i>
+                          </a>
+                          <a href="https://www.youtube.com/"target="_blank">
+                              <i class="fa-brands fa-youtube"></i>
+                      
+  
+                  </section>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

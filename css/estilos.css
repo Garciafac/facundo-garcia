@@ -24,6 +24,9 @@ body{
    }
    
 }
+.alto{
+   height: 50vh;
+}
    
 .main{ 
    
@@ -36,6 +39,10 @@ body{
       }
    }      
    
+}
+.centrado{
+   display:flex;
+   justify-content: center;
 }
 
 .footer{
