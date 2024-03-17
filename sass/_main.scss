@@ -11,6 +11,6 @@
     
  }
  .centrado{
-    display:flex;
-    justify-content: center;
+   @include flexible(flex , center);
  }
+     
