@@ -1,0 +1,16 @@
+.main{ 
+   
+    .carousel-item{
+       height: map-get($altos, alto-carrusel);  
+       img{
+          height: map-get($altos , alto-img );
+          width: 100%;
+          object-fit: cover;
+       }
+    }      
+    
+ }
+ .centrado{
+    display:flex;
+    justify-content: center;
+ }

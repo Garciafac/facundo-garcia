@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2? familia= Protesta+Huelga &family= Roboto:ital@1 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+body {
+  background-color: #e2ccf7;
+}
+
+.header {
+  background-color: rgba(73, 124, 133, 0.5019607843);
+  color: rgba(29, 26, 26, 0.9647058824);
+}
+.header .logo {
+  width: 50px;
+  margin: 10px;
+}
+
+.alto {
+  height: 50vh;
+}
+
+.main .carousel-item {
+  height: 90vh;
+}
+.main .carousel-item img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #c47b7b;
+}
+footer .contenerdorTextoFooter {
+  background-color: #f5e2e2;
+}
+footer .contenerdorTextoFooter .icono {
+  text-decoration: none;
+  font-size: 2rem;
+}
+footer .contenerdorTextoFooter .icono .fa-whatsapp {
+  color: #006400;
+}
+footer .contenerdorTextoFooter .icono .fa-instagram {
+  color: #ff1493;
+}
+footer .contenerdorTextoFooter .icono .fa-youtube {
+  color: #8b0000;
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .media {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

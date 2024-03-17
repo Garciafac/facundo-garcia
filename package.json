@@ -1,0 +1,22 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "preyecto de code clase 53795",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garciafac/facundo-garcia.git"
+  },
+  "author": "facundo garcia clase 53795",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garciafac/facundo-garcia/issues"
+  },
+  "homepage": "https://github.com/Garciafac/facundo-garcia#readme",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}
